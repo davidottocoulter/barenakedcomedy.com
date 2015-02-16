@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: museo;
+    background:  url(../images/background.jpg) repeat-y top center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    margin: 0;
+}
+
+.container {
+    background: rgba(103,0,1,.85);
+    color: white;
+    margin: 0 auto;
+    width: 1028px;
+}
+
+main {
+    padding: 27px;
+}
+
+.top-bar {
+    background: rgba(103, 0, 1, 0.7);
+    padding: 5px 10px 5px 10px;
+}
+
+.up-arrow{
+    background: transparent url(../images/triangle.png) no-repeat;
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-top: 33px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    width: 35px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+body h1.bigheader {
+    font-size: 91px;
+    line-height: 0;
+    margin: 65px 0 51px;
+    text-align: center;
+}
+
+.banner {
+    height: 452px !important;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 937px;
+}
+
+.banner li { 
+    list-style: none; 
+}
+
+.banner ul {
+    padding: 0;
+}
+
+.banner ul li { 
+    float: left; 
+}
+
+.dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dots li {
+    display: inline-block;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 0 10px;
+    margin: 0 8px;
+    text-indent: -9999px;
+}
+
+.dots li.active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.feature {
+    text-align: center;
+}
+
+.shows {
+    margin: 20px 0 10px;
+}
+
+.tickets p {
+    margin-left: 202px;
+}
+
+.section h2 {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    font-size: 70px;
+    margin: 0 0 10px 0;
+}
+
+.container h3 {
+    clear: both;
+    font-size: 51px;
+    clear: both;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.history h4 {
+    font-size: 45px;
+    font-style: italic;
+    margin: 0;
+    padding: 13px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    color: white;
+    border-left: 2px solid white;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 23px;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+
+nav ul li:first-child {
+    border: none;
+}
+
+.section p {
+    display: block;
+    font-size: 24px;
+    margin-top: 0;
+    padding-left: 202px;
+}
+
+.section p a {
+    text-decoration: underline;
+}
+
+.section p a:hover {
+    text-decoration: none;
+}
+
+.fringefest p, .future p {
+    margin-top: 20px;
+}
+
+.history p, .fringefest p, .future p, .copyright p {
+    padding-left: 0px;
+}
+
+.copyright p {
+    font-size: 17px;
+    text-align: center;
+}
+
+/*square images*/
+.square {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.fringe {
+    padding: 85px 50px 70px 0;
+}
+
+.section {
+    padding: 5px 10px 5px 10px;
+}
+
+.first-word {
+    font-style: italic;
+}

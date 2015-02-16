@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    David Coulter -- Designer -- davidocoulter
+    Ksenia Zherdeva -- Front-end Programmer
+    Meagan Suave -- Tester
+
+# THANKS
+
+    Mindi Mimosa
+    Max Rosenblum (fer nothin)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery
